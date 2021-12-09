@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smotthing:antialiased;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    body
+}
+header{
+    background-color: black;
+    clip-path: polygon(0 0 ,100% 0,100% 100%,70%  87%,0 100%);
+}
+header nav .right a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: cornsilk;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color: cyan;
+    transition: all .3s ease;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 1rem;
+}
+.drex{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    
+}
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease ;
+}
+.btn-non{
+    background: cyan;
+    color: black;
+
+}
+.btn-non:hover{
+    background: transparent;
+    border-color: cyan;
+    color: white;
+}
+.btn-mon{
+    background: transparent;
+    color: turquoise;
+    border-color: cyan;
+}
+.btn-mon:hover{
+    background:cyan;
+    color: black;
+}
+marquee{
+    color: white;
+    background: black;
+}
+.hero .right{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 4rem;
+}
+.ser{
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+}
+.hero{
+    padding: 3rem 0;
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: cyan;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem ;
+    color: cyan;
+    text-transform: capitalize;
+}
+.middle img{
+   justify-content: center;
+   width: 110px;
+   margin-top: 1rem;
+   /* margin-left: 00.5rem; */
+}
+.hero .right .p{
+    line-height:1.9;
+    margin-bottom: 2rem;
+
+}
+.flex-1{
+    flex: 1;
+}
+section{
+    padding: 8rem 0;
+}
+section.about  h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(97, 1, 81);
+    font-family:  sans-serif;
+}
+section.about p,ul{
+    color: rgb(5, 10, 0);
+}
+.section-heading{
+    color:black;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+}
+.section-heading + p{
+    color: rgb(29, 1, 82);
+    font: italic;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+.section-heading span{
+    color: blueviolet;
+}
+section.services .card-wrapper{
+    display: grid;
+    /* color: blueviolet; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+section.services{
+    background-color: rgb(211, 200, 200);
+    padding: 10rem 0;
+}
+section.services .card{
+    background-color: white;
+    padding: 3rem 2rem;
+    position: relative;
+    padding: 4rem;
+    text-align: center;
+}
+section.services .card img{
+    position: absolute;
+    top:-3.5rem;
+    left: 30% ;
+    
+}
+section.services .card h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+section.services .card p{
+    color: grey;
+    font-family: sans-serif;
+}
+section.services .card:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all .3s ease;
+}
+section.services .card:hover h2,section.services .card:hover p{
+    color: white;
+} 
+#nexus{
+    clip-path: polygon(0 0 ,100% 0,100% 100%,20%  87%,0 100%)
+}
+section.contact .container .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 1rem;
+}
+section.contact .card-wrapper .card h2{
+    font-weight: 500;
+    font-style: italic;
+}
+section.contact .card-wrapper .card h6{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+section.nexero .input-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 0.5rem; ;
+}
+section.nexero .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.nexero input{
+    padding: 0.5rem;
+    border: 2px solid cyan;
+}
+section.nexero textarea{
+    border: 2px solid cyan;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+section.nexero input:focus{
+    background-color: rgb(161, 245, 245);
+}
+section.nexero textarea:focus{
+    background-color: rgb(161, 245, 245);
+}
+section.nexero .btnmx{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer .copy{
+    margin-top: 1rem;
+    color: white;
+}
+@media (max-width:1024px){
+    header #main-nav{
+        display: none;
+    }
+}
+
+
+
+
+
